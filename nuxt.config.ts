@@ -9,4 +9,7 @@ export default defineNuxtConfig({
       theme: "dark-plus",
     },
   },
+  nitro: {
+    preset: 'service-worker'
+  }
 });
